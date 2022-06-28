@@ -1,0 +1,11 @@
+body::before{
+    content: "";
+    background-image: url('files/anteater.jpeg');
+    background-size: 60%;
+    position: absolute;
+    opacity: .2;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
