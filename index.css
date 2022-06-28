@@ -1,7 +1,16 @@
-body::before{
+p{
+    width: 600px;
+}
+
+a{
+    position: relative;
+}
+.anteater-background::before{
+    /* display: inline; */
     content: "";
     background-image: url('files/anteater.jpeg');
     background-size: 60%;
+    /* background-size: cover; */
     position: absolute;
     opacity: .2;
     top: 0;
